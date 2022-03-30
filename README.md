@@ -16,6 +16,11 @@ El link al repositorio es el siguiente https://github.com/Germiprogramer/EJERCIC
 
     del NewYork
 
+NOTA = El resto del código está distribuido en distintos archivos en su correspondiente carpeta
+
+<img width="281" alt="2022-03-30 (2)" src="https://user-images.githubusercontent.com/91720991/160883738-2e70c0ac-e19e-4c53-a5ba-3e6db102b5b8.png">
+
+
 # EJERCICIO 2
 
 1. Al tratar de imprimir una clase, se hace la llamada al objeto.
@@ -65,3 +70,6 @@ El link al repositorio es el siguiente https://github.com/Germiprogramer/EJERCIC
     casita = Casa(pared1)
 
     casita.superficie_acristalada()
+
+<img width="287" alt="2022-03-30 (3)" src="https://user-images.githubusercontent.com/91720991/160883799-4a78169d-ebe5-41e3-ba6b-2234f54c4ffb.png">
+
