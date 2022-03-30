@@ -11,16 +11,26 @@ class Pared:
         self.orientacion = orientacion
         self.area = self.ventana.get_area()
 
-        
-class Ventana:
-    def __init__(self, area):
+class Cristal:
+    def __init__(self, anchuracristal):
+        self.anchuracristal = anchuracristal
+
+    def get_anchuracristal(self):
+        return self.anchuracristal
+      
+class Ventana(Cristal):
+    def __init__(self, anchuracristal, area):
+        super().__init__(anchuracristal)
         self.area = area
+
 
     def get_area(self):
         return self.area
 
-ventana1 = Ventana(3)
-ventana2 = Ventana(4)
+
+
+ventana1 = Ventana(2,3)
+ventana2 = Ventana(1,4)
 
 pared1 = Pared(ventana1, "izquierda")
 
